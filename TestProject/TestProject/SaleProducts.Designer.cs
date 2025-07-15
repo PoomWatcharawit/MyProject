@@ -47,20 +47,19 @@
             this.MenuStore = new System.Windows.Forms.ToolStripTextBox();
             this.MenuCustomer = new System.Windows.Forms.ToolStripTextBox();
             this.cusIDbox = new System.Windows.Forms.ComboBox();
-            this.proIDbox = new System.Windows.Forms.ComboBox();
-            this.storesDBDataSet = new TestProject.StoresDBDataSet();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.customerTableAdapter = new TestProject.StoresDBDataSetTableAdapters.CustomerTableAdapter();
-            this.storesDBDataSet1 = new TestProject.StoresDBDataSet1();
+            this.storesDBDataSet = new TestProject.StoresDBDataSet();
+            this.proIDbox = new System.Windows.Forms.ComboBox();
             this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.storesDBDataSet1 = new TestProject.StoresDBDataSet1();
+            this.customerTableAdapter = new TestProject.StoresDBDataSetTableAdapters.CustomerTableAdapter();
             this.productsTableAdapter = new TestProject.StoresDBDataSet1TableAdapters.ProductsTableAdapter();
-            this.Reportbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -138,7 +137,7 @@
             // Clearbtn
             // 
             this.Clearbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.Clearbtn.Location = new System.Drawing.Point(152, 497);
+            this.Clearbtn.Location = new System.Drawing.Point(193, 497);
             this.Clearbtn.Name = "Clearbtn";
             this.Clearbtn.Size = new System.Drawing.Size(96, 46);
             this.Clearbtn.TabIndex = 40;
@@ -150,7 +149,7 @@
             // 
             this.Deletebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.Deletebtn.ForeColor = System.Drawing.Color.Red;
-            this.Deletebtn.Location = new System.Drawing.Point(38, 497);
+            this.Deletebtn.Location = new System.Drawing.Point(79, 497);
             this.Deletebtn.Name = "Deletebtn";
             this.Deletebtn.Size = new System.Drawing.Size(96, 46);
             this.Deletebtn.TabIndex = 39;
@@ -162,7 +161,7 @@
             // 
             this.Updatebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.Updatebtn.ForeColor = System.Drawing.Color.Goldenrod;
-            this.Updatebtn.Location = new System.Drawing.Point(152, 432);
+            this.Updatebtn.Location = new System.Drawing.Point(193, 432);
             this.Updatebtn.Name = "Updatebtn";
             this.Updatebtn.Size = new System.Drawing.Size(96, 46);
             this.Updatebtn.TabIndex = 38;
@@ -174,7 +173,7 @@
             // 
             this.Insertbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.Insertbtn.ForeColor = System.Drawing.Color.ForestGreen;
-            this.Insertbtn.Location = new System.Drawing.Point(38, 432);
+            this.Insertbtn.Location = new System.Drawing.Point(79, 432);
             this.Insertbtn.Name = "Insertbtn";
             this.Insertbtn.Size = new System.Drawing.Size(96, 46);
             this.Insertbtn.TabIndex = 37;
@@ -219,7 +218,7 @@
             this.MenuCustomer});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1093, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(1093, 27);
             this.toolStrip1.TabIndex = 45;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -228,7 +227,7 @@
             this.MenuStore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MenuStore.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuStore.Name = "MenuStore";
-            this.MenuStore.Size = new System.Drawing.Size(100, 31);
+            this.MenuStore.Size = new System.Drawing.Size(100, 27);
             this.MenuStore.Text = "Store";
             this.MenuStore.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MenuStore.Click += new System.EventHandler(this.MenuStore_Click);
@@ -238,7 +237,7 @@
             this.MenuCustomer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MenuCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuCustomer.Name = "MenuCustomer";
-            this.MenuCustomer.Size = new System.Drawing.Size(100, 31);
+            this.MenuCustomer.Size = new System.Drawing.Size(100, 27);
             this.MenuCustomer.Text = "Customer";
             this.MenuCustomer.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MenuCustomer.Click += new System.EventHandler(this.MenuCustomer_Click_1);
@@ -255,6 +254,16 @@
             this.cusIDbox.TabIndex = 46;
             this.cusIDbox.ValueMember = "CustomerID";
             // 
+            // customerBindingSource
+            // 
+            this.customerBindingSource.DataMember = "Customer";
+            this.customerBindingSource.DataSource = this.storesDBDataSet;
+            // 
+            // storesDBDataSet
+            // 
+            this.storesDBDataSet.DataSetName = "StoresDBDataSet";
+            this.storesDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // proIDbox
             // 
             this.proIDbox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.storesDBDataSet, "Products.ProductID", true));
@@ -268,52 +277,29 @@
             this.proIDbox.ValueMember = "ProductID";
             this.proIDbox.SelectedIndexChanged += new System.EventHandler(this.proIDbox_SelectedIndexChanged_1);
             // 
-            // storesDBDataSet
+            // productsBindingSource
             // 
-            this.storesDBDataSet.DataSetName = "StoresDBDataSet";
-            this.storesDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // customerBindingSource
-            // 
-            this.customerBindingSource.DataMember = "Customer";
-            this.customerBindingSource.DataSource = this.storesDBDataSet;
-            // 
-            // customerTableAdapter
-            // 
-            this.customerTableAdapter.ClearBeforeFill = true;
+            this.productsBindingSource.DataMember = "Products";
+            this.productsBindingSource.DataSource = this.storesDBDataSet1;
             // 
             // storesDBDataSet1
             // 
             this.storesDBDataSet1.DataSetName = "StoresDBDataSet1";
             this.storesDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // productsBindingSource
+            // customerTableAdapter
             // 
-            this.productsBindingSource.DataMember = "Products";
-            this.productsBindingSource.DataSource = this.storesDBDataSet1;
+            this.customerTableAdapter.ClearBeforeFill = true;
             // 
             // productsTableAdapter
             // 
             this.productsTableAdapter.ClearBeforeFill = true;
-            // 
-            // Reportbtn
-            // 
-            this.Reportbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.Reportbtn.ForeColor = System.Drawing.Color.Navy;
-            this.Reportbtn.Location = new System.Drawing.Point(271, 432);
-            this.Reportbtn.Name = "Reportbtn";
-            this.Reportbtn.Size = new System.Drawing.Size(93, 111);
-            this.Reportbtn.TabIndex = 48;
-            this.Reportbtn.Text = "Report";
-            this.Reportbtn.UseVisualStyleBackColor = true;
-            this.Reportbtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // SaleProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1093, 593);
-            this.Controls.Add(this.Reportbtn);
             this.Controls.Add(this.proIDbox);
             this.Controls.Add(this.cusIDbox);
             this.Controls.Add(this.toolStrip1);
@@ -337,10 +323,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.storesDBDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -373,6 +359,5 @@
         private StoresDBDataSet1 storesDBDataSet1;
         private System.Windows.Forms.BindingSource productsBindingSource;
         private StoresDBDataSet1TableAdapters.ProductsTableAdapter productsTableAdapter;
-        private System.Windows.Forms.Button Reportbtn;
     }
 }
