@@ -36,5 +36,101 @@ namespace TestProject
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // ตรวจสอบค่าว่าง
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Number is Empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int Num1, Num2;
+            // ตรวจสอบว่าเป็นตัวเลขเท่านั้น
+            if (!int.TryParse(textBox1.Text, out Num1) || !int.TryParse(textBox2.Text, out Num2))
+            {
+                MessageBox.Show("Please enter valid numbers only.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int result = Num1 + Num2;
+            label2.Text = result.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // ตรวจสอบค่าว่าง
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Number is Empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int Num1, Num2;
+            // ตรวจสอบว่าเป็นตัวเลขเท่านั้น
+            if (!int.TryParse(textBox1.Text, out Num1) || !int.TryParse(textBox2.Text, out Num2))
+            {
+                MessageBox.Show("Please enter valid numbers only.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int result = Num1 - Num2;
+            label2.Text = result.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // ตรวจสอบค่าว่าง
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Number is Empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int Num1, Num2;
+            // ตรวจสอบว่าเป็นตัวเลขเท่านั้น
+            if (!int.TryParse(textBox1.Text, out Num1) || !int.TryParse(textBox2.Text, out Num2))
+            {
+                MessageBox.Show("Please enter valid numbers only.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int result = Num1 * Num2;
+            label2.Text = result.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // ตรวจสอบค่าว่าง
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Number is Empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int Num1, Num2;
+            // ตรวจสอบว่าเป็นตัวเลขเท่านั้น
+            if (!int.TryParse(textBox1.Text, out Num1) || !int.TryParse(textBox2.Text, out Num2))
+            {
+                MessageBox.Show("Please enter valid numbers only.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // ตรวจสอบหารด้วยศูนย์
+            if (Num2 == 0)
+            {
+                MessageBox.Show("Cannot divide by zero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int result = Num1 / Num2;
+            label2.Text = result.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

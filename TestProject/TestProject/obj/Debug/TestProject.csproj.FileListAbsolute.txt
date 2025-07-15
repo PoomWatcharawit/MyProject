@@ -1,0 +1,11 @@
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\bin\Debug\TestProject.exe
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.csproj.AssemblyReference.cache
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.Main.resources
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.Store.resources
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.csproj.GenerateResource.cache
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.exe
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.pdb

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\debugcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\debugcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Store.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs",
+              "RelativeDocumentMoniker": "TestProject\\Store.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs [Design]",
+              "RelativeToolTip": "TestProject\\Store.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:07:01.42Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DebugCode.cs",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\DebugCode.cs",
+              "RelativeDocumentMoniker": "TestProject\\DebugCode.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\DebugCode.cs",
+              "RelativeToolTip": "TestProject\\DebugCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T09:58:17.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
+              "RelativeDocumentMoniker": "TestProject\\Main.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
+              "RelativeToolTip": "TestProject\\Main.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T09:46:30.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Form1.cs",
-              "RelativeDocumentMoniker": "TestProject\\Form1.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Form1.cs [Design]",
-              "RelativeToolTip": "TestProject\\Form1.cs [Design]",
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
+              "RelativeDocumentMoniker": "TestProject\\Main.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs [Design]",
+              "RelativeToolTip": "TestProject\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T09:32:15.224Z",
               "EditorCaption": " [Design]"
