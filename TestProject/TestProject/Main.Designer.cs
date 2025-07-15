@@ -32,6 +32,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ManuCalculate = new System.Windows.Forms.ToolStripTextBox();
+            this.ManuStore = new System.Windows.Forms.ToolStripTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.ManuStore = new System.Windows.Forms.ToolStripTextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,10 +68,21 @@
             this.ManuCalculate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ManuCalculate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ManuCalculate.Name = "ManuCalculate";
-            this.ManuCalculate.Size = new System.Drawing.Size(100, 27);
+            this.ManuCalculate.Size = new System.Drawing.Size(100, 31);
             this.ManuCalculate.Text = "Calculate";
             this.ManuCalculate.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ManuCalculate.Click += new System.EventHandler(this.ManuCalculate_Click);
+            // 
+            // ManuStore
+            // 
+            this.ManuStore.BackColor = System.Drawing.SystemColors.Menu;
+            this.ManuStore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ManuStore.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManuStore.Name = "ManuStore";
+            this.ManuStore.Size = new System.Drawing.Size(100, 31);
+            this.ManuStore.Text = "Store";
+            this.ManuStore.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ManuStore.Click += new System.EventHandler(this.ManuStore_Click);
             // 
             // textBox1
             // 
@@ -154,17 +165,6 @@
             this.button2.Text = "+";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // ManuStore
-            // 
-            this.ManuStore.BackColor = System.Drawing.SystemColors.Menu;
-            this.ManuStore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ManuStore.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManuStore.Name = "ManuStore";
-            this.ManuStore.Size = new System.Drawing.Size(100, 27);
-            this.ManuStore.Text = "Store";
-            this.ManuStore.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.ManuStore.Click += new System.EventHandler(this.ManuStore_Click);
             // 
             // Main
             // 

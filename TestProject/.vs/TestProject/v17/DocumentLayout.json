@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\saleproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\saleproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\categoryproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\saleproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\saleproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|c:\\users\\poom\\documents\\github\\myproject\\testproject\\testproject\\models.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A76675-905E-4279-9073-823FAA71B206}|TestProject\\TestProject.csproj|solutionrelative:testproject\\models.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryProduct.cs",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\CategoryProduct.cs",
-              "RelativeDocumentMoniker": "TestProject\\CategoryProduct.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\CategoryProduct.cs",
-              "RelativeToolTip": "TestProject\\CategoryProduct.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvyUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:51:46.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryProduct.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\CategoryProduct.cs",
-              "RelativeDocumentMoniker": "TestProject\\CategoryProduct.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\CategoryProduct.cs [Design]",
-              "RelativeToolTip": "TestProject\\CategoryProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:32:34.4Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customers.cs",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Customers.cs",
-              "RelativeDocumentMoniker": "TestProject\\Customers.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Customers.cs",
-              "RelativeToolTip": "TestProject\\Customers.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:45:05.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Store.cs",
               "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs",
               "RelativeDocumentMoniker": "TestProject\\Store.cs",
               "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs",
               "RelativeToolTip": "TestProject\\Store.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwD8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAIA6wJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:26:42.265Z",
+              "WhenOpened": "2025-07-15T20:11:03.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customers.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Customers.cs",
-              "RelativeDocumentMoniker": "TestProject\\Customers.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Customers.cs [Design]",
-              "RelativeToolTip": "TestProject\\Customers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:13:48.046Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Store.cs [Design]",
               "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs",
               "RelativeDocumentMoniker": "TestProject\\Store.cs",
               "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Store.cs [Design]",
               "RelativeToolTip": "TestProject\\Store.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T10:07:01.42Z",
+              "WhenOpened": "2025-07-15T20:11:02.097Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
-              "RelativeDocumentMoniker": "TestProject\\Main.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
-              "RelativeToolTip": "TestProject\\Main.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCUAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SaleProducts.cs",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\SaleProducts.cs",
+              "RelativeDocumentMoniker": "TestProject\\SaleProducts.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\SaleProducts.cs",
+              "RelativeToolTip": "TestProject\\SaleProducts.cs",
+              "ViewState": "AgIAAFMBAAAAAAAAAAAqwGoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:46:30.627Z",
+              "WhenOpened": "2025-07-15T18:38:52.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs",
-              "RelativeDocumentMoniker": "TestProject\\Main.cs",
-              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Main.cs [Design]",
-              "RelativeToolTip": "TestProject\\Main.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "SaleProducts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\SaleProducts.cs",
+              "RelativeDocumentMoniker": "TestProject\\SaleProducts.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\SaleProducts.cs [Design]",
+              "RelativeToolTip": "TestProject\\SaleProducts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:32:15.224Z",
+              "WhenOpened": "2025-07-15T18:38:50.889Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Models.Context.cs",
+              "DocumentMoniker": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Models.Context.cs",
+              "RelativeDocumentMoniker": "TestProject\\Models.Context.cs",
+              "ToolTip": "C:\\Users\\POOM\\Documents\\GitHub\\MyProject\\TestProject\\TestProject\\Models.Context.cs",
+              "RelativeToolTip": "TestProject\\Models.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:34:12.056Z",
+              "EditorCaption": ""
             }
           ]
         }
