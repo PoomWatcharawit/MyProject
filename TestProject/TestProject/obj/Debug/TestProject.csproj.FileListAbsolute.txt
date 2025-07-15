@@ -9,3 +9,6 @@ C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestP
 C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
 C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.exe
 C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.pdb
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.CategoryProduct.resources
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.Customers.resources
+C:\Users\POOM\Documents\GitHub\MyProject\TestProject\TestProject\obj\Debug\TestProject.SaleProducts.resources

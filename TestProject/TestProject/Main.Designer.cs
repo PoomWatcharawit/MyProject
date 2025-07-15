@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.ManuCalculate = new System.Windows.Forms.ToolStripTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,7 +40,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.ManuCalculate = new System.Windows.Forms.ToolStripTextBox();
+            this.ManuStore = new System.Windows.Forms.ToolStripTextBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,12 +54,24 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ManuCalculate});
+            this.ManuCalculate,
+            this.ManuStore});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(552, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // ManuCalculate
+            // 
+            this.ManuCalculate.BackColor = System.Drawing.SystemColors.Menu;
+            this.ManuCalculate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ManuCalculate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManuCalculate.Name = "ManuCalculate";
+            this.ManuCalculate.Size = new System.Drawing.Size(100, 27);
+            this.ManuCalculate.Text = "Calculate";
+            this.ManuCalculate.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ManuCalculate.Click += new System.EventHandler(this.ManuCalculate_Click);
             // 
             // textBox1
             // 
@@ -142,16 +155,16 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ManuCalculate
+            // ManuStore
             // 
-            this.ManuCalculate.BackColor = System.Drawing.SystemColors.Menu;
-            this.ManuCalculate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ManuCalculate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManuCalculate.Name = "ManuCalculate";
-            this.ManuCalculate.Size = new System.Drawing.Size(100, 27);
-            this.ManuCalculate.Text = "Calculate";
-            this.ManuCalculate.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.ManuCalculate.Click += new System.EventHandler(this.ManuCalculate_Click);
+            this.ManuStore.BackColor = System.Drawing.SystemColors.Menu;
+            this.ManuStore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ManuStore.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManuStore.Name = "ManuStore";
+            this.ManuStore.Size = new System.Drawing.Size(100, 27);
+            this.ManuStore.Text = "Store";
+            this.ManuStore.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ManuStore.Click += new System.EventHandler(this.ManuStore_Click);
             // 
             // Main
             // 
@@ -190,6 +203,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ToolStripTextBox ManuCalculate;
+        private System.Windows.Forms.ToolStripTextBox ManuStore;
     }
 }
 

@@ -34,7 +34,8 @@ namespace TestProject
 
         private void ManuStore_Click(object sender, EventArgs e)
         {
-
+            Store storeForm = new Store();
+            storeForm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

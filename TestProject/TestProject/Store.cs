@@ -51,5 +51,28 @@ namespace TestProject
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuCustomer_Click(object sender, EventArgs e)
+        {
+            Customers customerForm = new Customers();
+            customerForm.Show();
+        }
+
+        private void MenuCategory_Click(object sender, EventArgs e)
+        {
+            CategoryProduct categoryForm = new CategoryProduct();
+            categoryForm.Show();
+        }
+
+        private void MenuSales_Click(object sender, EventArgs e)
+        {
+            SaleProducts salesForm = new SaleProducts();
+            salesForm.Show();
+        }
     }
 }

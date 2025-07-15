@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TestProject
 {
-    public partial class DetailProduct: Form
+    public partial class SaleProducts: Form
     {
-        public DetailProduct()
+        public SaleProducts()
         {
             InitializeComponent();
         }
