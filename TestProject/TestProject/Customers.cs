@@ -16,5 +16,26 @@ namespace TestProject
         {
             InitializeComponent();
         }
+
+        private void MenuStore_Click(object sender, EventArgs e)
+        {
+            Store storeForm = new Store();
+            storeForm.Show();
+            this.Hide();
+        }
+
+        private void MenuCategory_Click_1(object sender, EventArgs e)
+        {
+            CategoryProduct salesForm = new CategoryProduct();
+            salesForm.Show();
+            this.Hide();
+        }
+
+        private void MenuSales_Click(object sender, EventArgs e)
+        {
+            SaleProducts saleProducts = new SaleProducts();
+            saleProducts.Show();
+            this.Hide();
+        }
     }
 }

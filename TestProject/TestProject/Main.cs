@@ -36,6 +36,7 @@ namespace TestProject
         {
             Store storeForm = new Store();
             storeForm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

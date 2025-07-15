@@ -61,18 +61,21 @@ namespace TestProject
         {
             Customers customerForm = new Customers();
             customerForm.Show();
+            this.Hide();
         }
 
         private void MenuCategory_Click(object sender, EventArgs e)
         {
             CategoryProduct categoryForm = new CategoryProduct();
             categoryForm.Show();
+            this.Hide();
         }
 
         private void MenuSales_Click(object sender, EventArgs e)
         {
             SaleProducts salesForm = new SaleProducts();
             salesForm.Show();
+            this.Hide();
         }
     }
 }
